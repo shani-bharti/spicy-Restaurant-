@@ -212,7 +212,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g-naan-making',
-    url: 'https://images.unsplash.com/photo-1585938338392-50a59970d8ee?q=80&w=800&auto=format&fit=crop',
+    url: 'https://images.unsplash.com/photo-1626132647523-66f5bf380027?q=80&w=800&auto=format&fit=crop',
     caption: 'Traditional clay tandoor oven cooking artisanal breads.',
     category: 'food'
   },

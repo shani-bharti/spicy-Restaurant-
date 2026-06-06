@@ -105,11 +105,16 @@ export default function Hero({ onReserveClick, onOrderClick }: HeroProps) {
             >
               <div className="flex items-center space-x-3">
                 <div className="flex -space-x-2">
-                  {[1, 2, 3, 4].map((i) => (
+                  {[
+                    'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=60&auto=format&fit=crop',
+                    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=60&auto=format&fit=crop',
+                    'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=60&auto=format&fit=crop',
+                    'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=60&auto=format&fit=crop'
+                  ].map((url, i) => (
                     <img
                       key={i}
-                      src={`https://images.unsplash.com/photo-${1500000000000 + i * 100000}?auto=format&fit=crop&q=80&w=60`}
-                      alt={`Happy Client ${i}`}
+                      src={url}
+                      alt={`Happy Client ${i + 1}`}
                       className="h-8 w-8 rounded-full border border-zinc-950 object-cover"
                       referrerPolicy="no-referrer"
                     />
@@ -120,7 +125,7 @@ export default function Hero({ onReserveClick, onOrderClick }: HeroProps) {
                     {[1, 2, 3, 4, 5].map((s) => (
                       <Star key={s} className="h-3 w-3 fill-amber-500" />
                     ))}
-                    <span className="ml-1 text-sm font-bold text-white">4.1</span>
+                    <span className="ml-1 text-sm font-bold text-white">4.9</span>
                   </div>
                   <span className="text-xs text-zinc-400">3,276+ Verified Reviews</span>
                 </div>

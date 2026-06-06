@@ -99,7 +99,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Soft and pillowy leavened flatbread freshly baked in our traditional tandoor clay oven, glazed generously with salted butter.',
     price: 50,
     category: 'rotis',
-    image: 'https://images.unsplash.com/photo-1601050690597-df056fb4ce78?q=80&w=600&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1608897013039-887f21d8c804?q=80&w=600&auto=format&fit=crop',
     spicyLevel: 0,
     isVeg: true,
     isPopular: true,

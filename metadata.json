@@ -1,0 +1,6 @@
+{
+  "name": "Spicy Family Restaurant",
+  "description": "Premium, modern, and visually stunning restaurant website with interactive menus, reservations, and luxury styling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

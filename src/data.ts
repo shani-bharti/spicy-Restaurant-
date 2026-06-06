@@ -8,7 +8,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'World-famous authentic Hyderabadi basmati rice cooked on dum with tender, marinated chicken, saffron, and premium ghee.',
     price: 320,
     category: 'biryani',
-    image: '/src/assets/images/spicy_biryani_1780729750320.png',
+    image: '/images/spicy_biryani_1780729750320.png',
     spicyLevel: 3,
     isVeg: false,
     isPopular: true,
@@ -60,7 +60,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'An assortment of tandoori chicken, paneer tikka, and sheekh kebab grill cooked in our clay oven, served with mint raita.',
     price: 450,
     category: 'starters',
-    image: '/src/assets/images/tandoori_platter_1780729786173.png',
+    image: '/images/tandoori_platter_1780729786173.png',
     spicyLevel: 3,
     isVeg: false,
     isPopular: true,
@@ -188,19 +188,19 @@ export const FEATURES: FeatureItem[] = [
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 'g-biryani',
-    url: '/src/assets/images/spicy_biryani_1780729750320.png',
+    url: '/images/spicy_biryani_1780729750320.png',
     caption: 'Signature Chicken Dum Biryani, fresh out of the dum handi.',
     category: 'food'
   },
   {
     id: 'g-dining-happy',
-    url: '/src/assets/images/family_dining_1780729766217.png',
+    url: '/images/family_dining_1780729766217.png',
     caption: 'Cozy and premium family dining section on the Mumbai Highway.',
     category: 'interior'
   },
   {
     id: 'g-tandoori-smoke',
-    url: '/src/assets/images/tandoori_platter_1780729786173.png',
+    url: '/images/tandoori_platter_1780729786173.png',
     caption: 'Our tandoor grill master preparing rich succulent seekh kebabs.',
     category: 'signature'
   },

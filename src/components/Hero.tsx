@@ -151,7 +151,7 @@ export default function Hero({ onReserveClick, onOrderClick }: HeroProps) {
               {/* Main Circular Food Image */}
               <div className="relative h-full w-full rounded-full overflow-hidden border-[4px] border-zinc-900 shadow-2xl">
                 <img
-                  src="/src/assets/images/spicy_biryani_1780729750320.png"
+                  src="/images/spicy_biryani_1780729750320.png"
                   alt="Authentic Hyderabadi Dum Biryani"
                   className="h-full w-full object-cover float-animation"
                   referrerPolicy="no-referrer"
@@ -169,7 +169,7 @@ export default function Hero({ onReserveClick, onOrderClick }: HeroProps) {
               >
                 <div className="h-10 w-10 overflow-hidden rounded-xl bg-orange-500">
                   <img
-                    src="/src/assets/images/tandoori_platter_1780729786173.png"
+                    src="/images/tandoori_platter_1780729786173.png"
                     alt="Tandoori Tikka"
                     className="h-full w-full object-cover"
                     referrerPolicy="no-referrer"
@@ -192,7 +192,7 @@ export default function Hero({ onReserveClick, onOrderClick }: HeroProps) {
               >
                 <div className="h-10 w-10 overflow-hidden rounded-xl bg-orange-500">
                   <img
-                    src="/src/assets/images/family_dining_1780729766217.png"
+                    src="/images/family_dining_1780729766217.png"
                     alt="Family Dining Setup"
                     className="h-full w-full object-cover"
                     referrerPolicy="no-referrer"

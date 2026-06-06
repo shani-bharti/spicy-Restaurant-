@@ -74,7 +74,7 @@ export default function About() {
               {/* Upper Image Frame */}
               <div className="col-span-8 rounded-3xl overflow-hidden shadow-xl aspect-square border border-zinc-200 dark:border-zinc-800">
                 <img
-                  src="/src/assets/images/family_dining_1780729766217.png"
+                  src="/images/family_dining_1780729766217.png"
                   alt="Traditional Family Dining Experience"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
@@ -98,7 +98,7 @@ export default function About() {
 
                 <div className="rounded-2xl overflow-hidden shadow-md aspect-square border border-zinc-200 dark:border-zinc-800">
                   <img
-                    src="/src/assets/images/tandoori_platter_1780729786173.png"
+                    src="/images/tandoori_platter_1780729786173.png"
                     alt="Seared Kebabs"
                     className="w-full h-full object-cover"
                     referrerPolicy="no-referrer"
